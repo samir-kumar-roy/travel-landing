@@ -1,0 +1,54 @@
+.book-btn {
+    background: linear-gradient(to right, rgb(246, 178, 56), rgb(253, 117, 66));
+}
+
+header .container>span {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+    background-color: rgb(234, 234, 234);
+}
+
+header .container>span .menu {
+
+    width: 90%;
+    display: block;
+
+}
+
+.hamburger-menu {
+    padding-top: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(36, 36, 36, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hamburger-menu nav {
+    width: 100%;
+}
+
+.hamburger-menu a {
+    padding: 5px 0;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    transition: all 0.4s;
+    border-radius: 2px;
+}
+
+.hamburger-menu a:hover {
+    background-color: #fff;
+}

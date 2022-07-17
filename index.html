@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="text-slate-800">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between mb-8 h-28">
+            <a class="flex title-font font-medium items-center mb-4 md:mb-0 text-4xl" href="index.html">Hajj.</a>
+            <nav class="md:flex flex-wrap items-center justify-end text-3xl hidden">
+                <a class="mr-5 hover:text-orange-400" href="#">Discover</a>
+                <a class="mr-5 hover:text-orange-400" href="#">Hotel</a>
+                <a class="mr-5 hover:text-orange-400" href="#">Ticket</a>
+            </nav>
+            <span class="block md:hidden"><img src="./images/menu.png" alt="menu open/close icon" class=" menu"></span>
+        </div>
+    </header>
+    <div class="hamburger-menu">
+        <nav class="flex flex-col items-center justify-center text-3xl">
+            <a class="mr-5 hover:text-orange-400" href="#">Discover</a>
+            <a class="mr-5 hover:text-orange-400" href="#">Hotel</a>
+            <a class="mr-5 hover:text-orange-400" href="#">Ticket</a>
+        </nav>
+    </div>
+
+    <section
+        class=" mt-5 container lg:flex-grow lg:pl-24 md:pl-16 flex md:flex-row flex-col md:items-center md:text-left items-center text-center">
+        <div class="md:w-1/2 w-full px-5"><img src="./mosque.png" alt="Mosque picture"></div>
+        <div class="md:w-1/2 w-full self-start lg:pt-12 md:pt-3 px-5">
+            <p class="text-slate-600 mb-5 text-left">Let's go now</p>
+            <h1 class="md:text-5xl lg:text-7xl text-4xl mb-4 text-black font-semibold text-left">The Beauty of
+                <span class="text-orange-400">Arabian</span> Night
+            </h1>
+            <p class="text-slate-600 text-base text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque,
+                eius adipisci eum aliquam
+                aspernatur earum a sapiente vitae vel voluptates!</p>
+            <a href="#"
+                class="book-btn py-4 block w-48 text-center text-3xl text-black mt-5 hover:text-white transition-all">Book
+                Now</a>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
